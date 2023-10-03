@@ -10,7 +10,7 @@ font-family: 'Work Sans';
 :root{
   --font-16: 1rem;
   --font-18: 1.125rem;
-  --font-20: 1.25rem;
+  --font-20: .94rem;
   --font-32: 2rem;
   --font-45: 2.81rem;
   --font-48: clamp(2.25rem,2.5vw,3rem)
