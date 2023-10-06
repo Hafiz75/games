@@ -3,10 +3,11 @@
 @media screen and (max-width:576px) {
   nav{
     flex-direction: column;
-    align-items: center;
+    padding: 0;
+    margin: auto;
   }
   .logo-con{
-    margin: 100px auto 60px;
+  
   }
   .menus{
     flex-direction: column;
@@ -15,4 +16,64 @@
   .banner{
     flex-direction: column-reverse;
   }
+  .banner-img{
+  margin: 50px;
+  }
+  .banner-content{
+    padding: 30px;
+    margin: 20px;
+  }
+
+   .we-are-gamer{
+    
+    flex-direction: column;
+  }
+  .we-are-gamer-content{
+    text-align: center;
+    margin: auto;
+  }
+
+}
+
+
+/* Tablet responsive Tablet responsive Tablet responsive */
+/* Tablet responsive Tablet responsive Tablet responsive */
+@media screen and (max-width:768px) {
+  nav{
+    flex-direction: column;
+    padding: 0;
+  }
+  .logo-con{
+    margin: 100px auto 60px;
+  }
+  .menus{
+    margin: auto;
+  }
+ 
+
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner-img{
+  margin: auto;
+  }
+  .banner-content{
+    margin: auto;
+  }
+
+  /* we-are-gamer section releted style */
+
+  .we-are-gamer{
+    flex-direction: column;
+ 
+
+  }
+  .we-are-gamer-img{
+    margin: auto;
+  }
+  .we-are-gamer-content{
+    text-align: center;
+    margin: auto;
+  }
+
 }

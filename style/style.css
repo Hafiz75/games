@@ -8,9 +8,10 @@ font-family: 'Work Sans';
 }
 
 :root{
+  --font-14: .875rem;
   --font-16: 1rem;
   --font-18: 1.125rem;
-  --font-20: .94rem;
+  --font-20: 1.25rem;
   --font-32: 2rem;
   --font-45: 2.81rem;
   --font-48: clamp(2.25rem,2.5vw,3rem)
@@ -18,11 +19,14 @@ font-family: 'Work Sans';
 
 
 .common-btn{
-  font-size: var(--font-20);
-  font-weight: 600;
-    display: inline-flex;
+font-size: var(--font-20);
+font-weight: 600;
+display: inline-flex;
+color: #FFF;
 padding: 14px 30px;
 align-items: flex-start;
+margin-top: 32px;
+margin-bottom: 24px;
 gap: 10px;
 border: none;
 border-radius: 48px;
@@ -77,6 +81,7 @@ nav h2,h4{
     justify-content: space-between;
 }
 .banner-content{
+  border: 2px solid red;
   text-align: left;
   padding: 7.5vw 15.5vw 7.5vw 12.5vw;
   height: auto;
@@ -116,6 +121,8 @@ font-weight: 500;
 white-space: nowrap;
 }
 .btn-group{
+  display: flex;
+  white-space: nowrap;
   margin-top: 40px;
 }
 .sign-in{
@@ -129,6 +136,7 @@ background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%)
 }
 .banner-img{
   margin: 19px 160px 0 0;
+  width: 100%;
   max-width: 540px;
   max-height: auto;
   /* max-width: 35vw;
@@ -138,6 +146,57 @@ background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%)
 
 /* start of style of main section */
 
+/* start of we-are-gamer section related style........start of we-are-gamer section related style */
+
+.we-are-gamer{
+  padding: 2.90vw 10vw;
+  display: flex;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+.we-are-gamer-img{
+  width: 100%;
+  max-width: 550px;
+max-height: 489px;
+margin-right: 50px;
+
+}
+.we-are-gamer-content{
+ 
+  margin: 40px 0 40px 0;
+  color: #534C64;
+text-align: right;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.we-are-gamer-title{
+  padding: 5px;
+  margin-bottom: 14px;
+  font-size: var(--font-48);
+  font-weight: 700;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.we-are-gamer-des{
+  font-size: var(--font-14);
+}
+.know-more{
+background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+}
+.our-purpose{
+  margin: 0;
+  color: #534C64;
+font-size: var(--font-16);
+font-weight: 500;
+}
+.unleash{
+  color: #534C64;
+font-size: var(--font-20);
+white-space: nowrap;
+font-weight: 700;
+line-height: 45px;
+}
 
 
 
