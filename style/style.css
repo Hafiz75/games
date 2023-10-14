@@ -2,42 +2,39 @@
 body {
   margin: 0;
 }
-*{
+* {
   box-sizing: border-box;
-font-family: 'Work Sans';
+  font-family: "Work Sans";
 }
 
-:root{
-  --font-14: .875rem;
+:root {
+  --font-14: 0.875rem;
   --font-16: 1rem;
   --font-18: 1.125rem;
   --font-20: 1.25rem;
   --font-32: 2rem;
   --font-45: 2.81rem;
-  --font-48: clamp(2.25rem,2.5vw,3rem)
+  --font-48: clamp(2.25rem, 2.5vw, 3rem);
 }
 
-
-.common-btn{
-font-size: var(--font-20);
-font-weight: 600;
-display: inline-flex;
-color: #FFF;
-padding: 14px 30px;
-align-items: flex-start;
-margin-top: 32px;
-margin-bottom: 24px;
-gap: 10px;
-border: none;
-border-radius: 48px;
-
+.common-btn {
+  font-size: var(--font-20);
+  font-weight: 600;
+  display: inline-flex;
+  color: #fff;
+  padding: 14px 30px;
+  align-items: flex-start;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  gap: 10px;
+  border: none;
+  border-radius: 48px;
 }
-
 
 /* header section related styele */
-header {
- flex-shrink: 0;
-}
+/* header,main{
+  margin: auto;
+} */
 /* style of nav.........style of nav.............style of nav............style of nav*/
 
 nav {
@@ -45,7 +42,8 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-nav h2,h4{
+nav h2,
+h4 {
   margin: 0;
 }
 
@@ -55,8 +53,8 @@ nav h2,h4{
   align-items: center;
 }
 .logo-img {
-  max-width: clamp(3.58rem,4.48vw,5.38rem);
-  max-height: clamp(1.67rem,2.08vw,2.5rem);
+  max-width: clamp(3.58rem, 4.48vw, 5.38rem);
+  max-height: clamp(1.67rem, 2.08vw, 2.5rem);
 }
 .menus {
   display: flex;
@@ -65,76 +63,82 @@ nav h2,h4{
 }
 .youtube-tiktok-btn {
   padding: 16px 24px;
-    display: flex; 
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
 }
 /* end of navbar related style........end of navbar related style */
 
 /* start of banner related style........start of banner related style */
-.banner{
-
-    display: flex;
-    justify-content: space-between;
+.banner {
+  display: flex;
+  justify-content: space-between;
 }
-.banner-content{
-  border: 2px solid red;
+.banner-content {
   text-align: left;
   padding: 7.5vw 15.5vw 7.5vw 12.5vw;
   height: auto;
   background-image: url(../images/banner-con-bg.png);
   background-size: 100%;
-object-fit: contain;
-margin-right: 3rem;
-fill: linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%);
+  object-fit: contain;
+  margin-right: 3rem;
+  fill: linear-gradient(
+    235deg,
+    rgba(140, 87, 238, 0.03) 3.9%,
+    rgba(241, 68, 174, 0.03) 100.56%
+  );
 }
-.banner-content h1,h2{
+.banner-content h1,
+h2 {
   margin: 0;
 }
-.banner-title{
-  color: #0B0223;
-font-family: Work Sans;
-font-size: var(--font-48);
-font-weight: 600;
-text-transform: uppercase;
+.banner-title {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: var(--font-48);
+  font-weight: 600;
+  text-transform: uppercase;
 }
-.goat{
-font-family: Work Sans;
-font-size: clamp(4rem,5vw,6rem);
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-text-transform: uppercase;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.goat {
+  font-family: Work Sans;
+  font-size: clamp(4rem, 5vw, 6rem);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.game-featured{
-  color: #534C64;
-font-family: Work Sans;
-font-size: var(--font-20);
-font-weight: 500;
-white-space: nowrap;
+.game-featured {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: var(--font-20);
+  font-weight: 500;
+  white-space: nowrap;
 }
-.btn-group{
+.btn-group {
   display: flex;
   white-space: nowrap;
   margin-top: 40px;
 }
-.sign-in{
+.sign-in {
   margin-right: 24px;
-  color: #FFF; 
-background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+  color: #fff;
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
 }
-.go-rogue{
-  background: #4EC5F7; 
-  color: #FFF; 
+.go-rogue {
+  background: #4ec5f7;
+  color: #fff;
 }
-.banner-img{
+.banner-img {
   margin: 19px 160px 0 0;
   width: 100%;
   max-width: 540px;
@@ -146,80 +150,150 @@ background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%)
 
 /* start of style of main section */
 
-/* start of we-are-gamer section related style........start of we-are-gamer section related style */
+/* start of we-are-gamer section related style........ */
 
-.we-are-gamer{
-  padding: 2.90vw 10vw;
+.we-are-gamer {
+  padding: 2.9vw 10vw;
   display: flex;
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
 }
-.we-are-gamer-img{
+.we-are-gamer-img {
   width: 100%;
   max-width: 550px;
-max-height: 489px;
-margin-right: 50px;
-
+  max-height: 489px;
+  object-fit: fill;
+  margin-right: 50px;
 }
-.we-are-gamer-content{
- 
+.we-are-gamer-content {
   margin: 40px 0 40px 0;
-  color: #534C64;
-text-align: right;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+  color: #534c64;
+  text-align: right;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
 }
-.we-are-gamer-title{
+.we-are-gamer-title {
   padding: 5px;
   margin-bottom: 14px;
   font-size: var(--font-48);
   font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.we-are-gamer-des {
+  font-size: var(--font-16);
+}
+.know-more {
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+}
+.our-purpose {
+  margin: 0;
+  color: #534c64;
+  font-size: var(--font-16);
+  font-weight: 500;
+}
+.unleash {
+  color: #534c64;
+  font-size: var(--font-20);
+  white-space: nowrap;
+  font-weight: 700;
+  line-height: 45px;
+}
+/* end of we-are-gamer section related style........ */
+
+/* start of online-games section related style........ */
+.online-games{
+  padding: 6.25vw 12.50vw;
+}
+.online-games-title{
+  color: #0B0223;
+text-align: center;
+margin: 0;
+font-size: var(--font-48);
+font-weight: 700;
+}
+.funny-videos{
   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-.we-are-gamer-des{
-  font-size: var(--font-14);
-}
-.know-more{
-background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
-}
-.our-purpose{
-  margin: 0;
+.online-games-des{
   color: #534C64;
-font-size: var(--font-16);
-font-weight: 500;
+  margin-bottom: 30px;
+text-align: center;
+font-family: Work Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
 }
-.unleash{
+.online-games-con{
+  display: flex;
+  gap: 18px;
+}
+.online-game-con{
+  position: relative;
+    width: 256px;
+  height: auto;
+}
+
+.online-game-img{
+    width: inherit;
+    height: auto;
+  
+}
+
+.online-game-featured{
   color: #534C64;
-font-size: var(--font-20);
-white-space: nowrap;
-font-weight: 700;
-line-height: 45px;
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
 }
 
 
+.black-shadow-and-img{
+  width: 256px;
+  height: 300px;
+  border-radius: 16px;
+border: 4px solid var(--Linear, #FF42A5);
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../images/rectangle6.png), lightgray 50% / cover no-repeat;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.watch-now-con{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.play-button{
+  background-color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watch-now-text{
+  font-size: 1rem;
+  font-weight: 600;
+  background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 

@@ -5,18 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    p{
-      font-size: clamp(1.8rem,5vw,4rem);
-    }
-    img{
-      width: 150px;
-      height: 100px;
-    }
+  
+.mother{
+  border: 3px solid red;
+  padding: 20px;
+  height: 100vh;
+}
+.con{
+  border: 3px solid teal;
+  height: 50vh;
+}
+.con div{
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+  background-color: aqua;
+  width: 30px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
   </style>
 </head>
 <body>
   
- <img src="images/banner-con-bg.png" alt="">
+<div class="mother">
+  <div class="con">
+    <div>2</div>
+  </div>
+</div>
 
 </body>
 </html>
