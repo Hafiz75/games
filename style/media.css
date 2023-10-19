@@ -25,6 +25,10 @@
     padding: 30px;
     margin: 20px;
   }
+  .game-featured{
+    font-size: var(--font-14);
+  }
+  .common-btn{font-size: var(--font-16);}
 
   .we-are-gamer {
     flex-direction: column;
@@ -37,6 +41,29 @@
     flex-direction: column;
     align-items: center;
   }
+  .play-instantly{
+    flex-direction: column;
+    margin: 40px;
+  }
+  .play-instantly-content{
+    margin-right: 0;
+    text-align: center;
+  }
+  .play-instantly-small-img{
+    max-width: 130px;
+    max-height: 150px;
+    position: relative;
+   top: 160px;
+  }
+  .play-instantly-big-img{
+    max-width: 240px;
+    max-height: 270px;
+    object-fit: cover;
+    position: relative;
+    left: -80px;
+  }
+
+
 }
 
 /* Tablet responsive Tablet responsive Tablet responsive */
@@ -76,7 +103,16 @@
     margin: auto;
   }
     .online-games-con{
+      gap: 0;
     flex-direction: column;
     align-items: center;
+  }
+  .play-instantly{
+    flex-direction: column;
+    margin: 6.25vw 12vw;
+  }
+  .play-instantly-content{
+    margin: auto;
+    text-align: center;
   }
 }

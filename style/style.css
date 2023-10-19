@@ -79,7 +79,7 @@ h4 {
 }
 .banner-content {
   text-align: left;
-  padding: 7.5vw 15.5vw 7.5vw 12.5vw;
+  padding: 7.5vw 12.5vw;
   height: auto;
   background-image: url(../images/banner-con-bg.png);
   background-size: 100%;
@@ -140,7 +140,6 @@ h2 {
 }
 .banner-img {
   margin: 19px 160px 0 0;
-  width: 100%;
   max-width: 540px;
   max-height: auto;
   /* max-width: 35vw;
@@ -207,50 +206,49 @@ h2 {
 /* end of we-are-gamer section related style........ */
 
 /* start of online-games section related style........ */
-.online-games{
-  padding: 6.25vw 12.50vw;
+.online-games {
+  padding: 6.25vw 12.5vw;
 }
-.online-games-title{
-  color: #0B0223;
-text-align: center;
-margin: 0;
-font-size: var(--font-48);
-font-weight: 700;
+.online-games-title {
+  color: #0b0223;
+  text-align: center;
+  margin: 0;
+  font-size: var(--font-48);
+  font-weight: 700;
 }
-.funny-videos{
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.funny-videos {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.online-games-des{
-  color: #534C64;
+.online-games-des {
+  color: #534c64;
   margin-bottom: 30px;
-text-align: center;
-font-family: Work Sans;
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
 }
-.online-games-con{
+.online-games-con {
   display: flex;
   gap: 18px;
 }
-.online-game-con{
+.online-game-con {
   position: relative;
-    width: 256px;
+  width: 256px;
   height: auto;
 }
 
-.online-game-img{
-    width: inherit;
-    height: auto;
-  
+.online-game-img {
+  width: inherit;
+  height: auto;
 }
 
-.online-game-featured{
-  color: #534C64;
+.online-game-featured {
+  color: #534c64;
   font-family: Work Sans;
   font-size: 1rem;
   font-style: normal;
@@ -258,26 +256,29 @@ line-height: 30px; /* 166.667% */
   line-height: 30px; /* 150% */
 }
 
-
-.black-shadow-and-img{
+.black-shadow-and-img {
   width: 256px;
   height: 300px;
   border-radius: 16px;
-border: 4px solid var(--Linear, #FF42A5);
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../images/rectangle6.png), lightgray 50% / cover no-repeat;
+  border: 4px solid var(--Linear, #ff42a5);
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(../images/rectangle6.png), lightgray 50% / cover no-repeat;
 }
 
-.watch-now-con{
+.watch-now-con {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  
+  transform: translate(-50%, -50%);
 }
-.play-button{
+.play-button {
   background-color: #fff;
   width: 36px;
   height: 36px;
@@ -286,14 +287,72 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 10
   justify-content: center;
   align-items: center;
 }
-.watch-now-text{
+.watch-now-text {
   font-size: 1rem;
   font-weight: 600;
-  background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* end of online-games section related style........ */
+
+/* start of play instantly section related style........ */
+
+.play-instantly{
+  display: flex;
+  margin: 6.25vw 5vw 6.25vw 14vw;
+}
+.play-instantly-content{
+  margin-right: 6.25vw;
+  text-align: right;
+}
+.play-instantly-title{
+max-width: 310px;
+font-family: Work Sans;
+font-size: var(--font-48);
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 125% */
+}
+.play-instantly-des{
+  max-width: 310px;
+  color: #534C64;
+font-family: Work Sans;
+font-size: var(--font-16);
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 166.667% */
+}
+
+.play-instantly-img-con{
+  display: flex;
+  position: relative;
+}
+
+
+
+.play-instantly-big-img{
+  max-width: 472px;
+  max-height: 487px;
+  position: relative;
+  left: -130px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.play-instantly-small-img{
+  position: relative;
+  z-index: 3;
+ top: 300px; 
+  max-width: 238px;
+  max-height: 274px;
+ 
+}
+
 
 
 
