@@ -306,19 +306,26 @@ h2 {
   display: flex;
   margin: 6.25vw 5vw 6.25vw 14vw;
 }
+.play-games-online{
+  display: flex;
+  margin: 6.25vw 10vw 6.25vw 5vw;
+}
 .play-instantly-content{
   margin-right: 6.25vw;
   text-align: right;
 }
-.play-instantly-title{
+.play-games-online-content{
+  text-align: left;
+}
+
+.play-instantly-title,.play-games-online-title{
+  margin-top: 0;  /*restricted h3 default top margin but bottom allowed */
 max-width: 310px;
-font-family: Work Sans;
 font-size: var(--font-48);
-font-style: normal;
 font-weight: 700;
 line-height: 48px; /* 125% */
 }
-.play-instantly-des{
+.play-instantly-des,.play-games-online-des{
   max-width: 310px;
   color: #534C64;
 font-family: Work Sans;
@@ -328,30 +335,44 @@ font-weight: 400;
 line-height: 22px; /* 166.667% */
 }
 
-.play-instantly-img-con{
+.play-instantly-img-con,.play-games-online-img-con{
   display: flex;
   position: relative;
 }
 
 
 
-.play-instantly-big-img{
+.play-instantly-big-img,.play-games-online-big-img{
+  margin-bottom: 80px;
   max-width: 472px;
   max-height: 487px;
-  position: relative;
-  left: -130px;
   object-fit: cover;
   z-index: 2;
 }
 
-.play-instantly-small-img{
+.play-instantly-small-img,.play-games-online-small-img{
+  
   position: relative;
   z-index: 3;
  top: 300px; 
   max-width: 238px;
   max-height: 274px;
- 
 }
+
+.move-left{
+  position: relative;
+  left: -130px;
+}
+.move-right{
+  position: relative;
+  left: 130px;
+}
+
+.play-games-online-reverse{
+margin-top: 12.5vw;
+flex-direction: row-reverse;
+}
+
 
 
 

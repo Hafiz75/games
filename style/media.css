@@ -43,26 +43,38 @@
   }
   .play-instantly{
     flex-direction: column;
-    margin: 40px;
   }
-  .play-instantly-content{
-    margin-right: 0;
+  .play-instantly-content {
+      text-align: center;
+  }
+  .play-games-online{
+    flex-direction: column;
+  
+  }
+  .play-games-online-content{
+    margin-left: 40px;
     text-align: center;
   }
-  .play-instantly-small-img{
-    max-width: 130px;
-    max-height: 150px;
+
+  .play-instantly-small-img,.play-games-online-small-img{
+    max-width: 115px;
+    height: 135px;
     position: relative;
    top: 160px;
   }
-  .play-instantly-big-img{
-    max-width: 240px;
-    max-height: 270px;
+  .play-instantly-big-img,          .play-games-online-big-img{
+    max-width: 220px;
+    height: 245px;
     object-fit: cover;
-    position: relative;
-    left: -80px;
+   
+    
   }
-
+  .move-left{
+    left: -70px;
+  }
+  .move-right{
+    left: 70px;
+  }
 
 }
 
@@ -109,9 +121,13 @@
   }
   .play-instantly{
     flex-direction: column;
-    margin: 6.25vw 12vw;
+    margin: 0 12vw 6.25vw;
   }
-  .play-instantly-content{
+  .play-games-online{
+    flex-direction: column;
+    margin: 12.5vw 12vw 6vw 0
+  }
+  .play-instantly-content,.play-games-online-content{
     margin: auto;
     text-align: center;
   }
