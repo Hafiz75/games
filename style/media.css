@@ -4,7 +4,7 @@
   nav {
     flex-direction: column;
     padding: 0;
-    align-items: center ;
+    align-items: center;
   }
   .logo-con {
     margin: 100px auto 60px;
@@ -16,7 +16,7 @@
   .banner {
     flex-direction: column-reverse;
   }
-  .banner-img{
+  .banner-img {
     margin-right: 50px;
     margin-left: 50px;
     max-width: calc(100% - 100px); /**/
@@ -25,10 +25,12 @@
     padding: 30px;
     margin: 20px;
   }
-  .game-featured{
+  .game-featured {
     font-size: var(--font-14);
   }
-  .common-btn{font-size: var(--font-16);}
+  .common-btn {
+    font-size: var(--font-16);
+  }
 
   .we-are-gamer {
     flex-direction: column;
@@ -37,50 +39,56 @@
     text-align: center;
     margin: auto;
   }
-  .online-games-con{
+  .online-games-con {
     flex-direction: column;
     align-items: center;
   }
-  .play-instantly{
+  .play-instantly {
     flex-direction: column;
   }
   .play-instantly-content {
-      text-align: center;
+    text-align: center;
   }
-  .play-games-online{
+  .play-games-online {
     flex-direction: column;
-  
   }
-  .play-games-online-content{
+  .play-games-online-content {
     margin-left: 40px;
     text-align: center;
   }
 
-  .play-instantly-small-img,.play-games-online-small-img{
+  .play-instantly-small-img,
+  .play-games-online-small-img {
     max-width: 115px;
     height: 135px;
     position: relative;
-   top: 160px;
+    top: 160px;
   }
-  .play-instantly-big-img,          .play-games-online-big-img{
+  .play-instantly-big-img,
+  .play-games-online-big-img {
     max-width: 220px;
     height: 245px;
     object-fit: cover;
-   
-    
   }
-  .move-left{
+  .move-left {
     left: -70px;
   }
-  .move-right{
+  .move-right {
     left: 70px;
   }
 
+  .careers{
+    flex-direction: column;
+    padding: 40px;
+  }
+  .careers-content{
+    margin: 0;
+  }
 }
 
 /* Tablet responsive Tablet responsive Tablet responsive */
 /* Tablet responsive Tablet responsive Tablet responsive */
-@media only screen and (min-width:576px) and (max-width: 968px) {
+@media only screen and (min-width: 576px) and (max-width: 968px) {
   nav {
     flex-direction: column;
     padding: 0;
@@ -114,21 +122,32 @@
     text-align: center;
     margin: auto;
   }
-    .online-games-con{
-      gap: 0;
+  .online-games-con {
+    gap: 0;
     flex-direction: column;
     align-items: center;
   }
-  .play-instantly{
+  .play-instantly {
     flex-direction: column;
     margin: 0 12vw 6.25vw;
   }
-  .play-games-online{
+  .play-games-online {
     flex-direction: column;
-    margin: 12.5vw 12vw 6vw 0
+    margin: 12.5vw 12vw 6vw 0;
   }
-  .play-instantly-content,.play-games-online-content{
+  .play-instantly-content,
+  .play-games-online-content {
     margin: auto;
     text-align: center;
+  }
+
+
+  .careers{
+    flex-direction: column;
+    padding: 6.50vw;
+    margin-top: 120px;
+  }
+  .careers-content{
+    margin: 0;
   }
 }
