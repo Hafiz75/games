@@ -444,16 +444,16 @@ border-radius: 50px;
 background: #FFF;
 }
 .game-img{
-  max-width: clamp(20px,4.2vw,60px);
-max-height: clamp(20px,4.2vw,60px);;
-margin-right: 1.20vw;
+  max-width: clamp(17px,4.2vw,60px);
+max-height: clamp(17px,4.2vw,60px);;
+margin-right: 1vw;
 flex-shrink: 0;
 border-radius: 50px;
 }
 .game-title{
   color: #0B0223;
 font-family: Work Sans;
-font-size: clamp(8px,1vw,20px);
+font-size: clamp(7px,1vw,20px);
 line-height: normal;
 }
 .highlited{
