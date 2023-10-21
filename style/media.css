@@ -79,14 +79,14 @@
 
   .careers{
     flex-direction: column;
-    padding: 15px;
+    padding: 10px;
   }
   .careers-content{
     margin: 0;
   }
   .designation-place{
     font-size: 8px;
-    gap: 25px;
+    gap: 20px;
   }
 
 
