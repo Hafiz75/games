@@ -96,6 +96,85 @@
   .role-playing{
   margin-left: 0px;
 }
+
+/* footer has been made responsive by grid */
+footer{
+  padding: 40px;
+}
+
+/* our-details container has been made responsive */
+.our-details{
+  grid-template-areas: 
+  'story games web'
+  'career support account'
+  ;
+}
+.story{
+  grid-area: story;
+}
+.games{
+  grid-area: games;
+}
+.web{
+  grid-area: web;
+}
+.career{
+  grid-area: career;
+}
+.support{
+  grid-area: support;
+}
+.account{
+  grid-area: account;
+}
+/* social-con container been made responsive */
+.social-con{
+  grid-template-areas: 
+  'tw fb yt'
+  'in ins apple'
+  ;
+}
+.tw{
+  grid-area:  tw;
+}
+.fb{
+  grid-area: fb;
+}
+.yt{
+  grid-area: yt;
+}
+.in{
+  grid-area: in;
+}
+.ins{
+  grid-area: ins;
+}
+.apple{
+  grid-area: apple;
+}
+
+/* terms-condition container has been made responsive */
+.terms-condition{
+  grid-template-areas: 
+  'terms privacy'
+  'cookie setting'
+  ;
+}
+.terms{
+  grid-area: terms;
+}
+.privacy{
+  grid-area: privacy;
+}
+.cookie{
+  grid-area: cookie;
+}
+.setting{
+  grid-area: setting;
+}
+.copyright-break{ 
+   display: block;
+  }
 }
 
 /* Tablet responsive Tablet responsive Tablet responsive */
@@ -162,4 +241,81 @@
   .careers-content{
     margin: 0;
   }
+
+  
+/* footer has been made responsive by grid */
+footer{
+  padding: 40px;
+}
+
+/* our-details container has been made responsive */
+.our-details{
+  grid-template-areas: 
+  'story games web'
+  'career support account'
+  ;
+}
+.story{
+  grid-area: story;
+}
+.games{
+  grid-area: games;
+}
+.web{
+  grid-area: web;
+}
+.career{
+  grid-area: career;
+}
+.support{
+  grid-area: support;
+}
+.account{
+  grid-area: account;
+}
+/* social-con container been made responsive */
+.social-con{
+  grid-template-areas: 
+  'tw fb yt'
+  'in ins apple'
+  ;
+}
+.tw{
+  grid-area:  tw;
+}
+.fb{
+  grid-area: fb;
+}
+.yt{
+  grid-area: yt;
+}
+.in{
+  grid-area: in;
+}
+.ins{
+  grid-area: ins;
+}
+.apple{
+  grid-area: apple;
+}
+
+/* terms-condition container has been made responsive */
+.terms-condition{
+  grid-template-areas: 
+  'terms privacy'
+  'cookie setting'
+  ;
+}
+.terms{
+  grid-area: terms;
+}
+.privacy{
+  grid-area: privacy;
+}
+.cookie{
+  grid-area: cookie;
+}
+.setting{
+  grid-area: setting;
+}
 }

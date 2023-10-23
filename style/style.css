@@ -469,6 +469,119 @@ background-clip: text;
 
 /*end of games-con section related style........*/
 
+/*start of footer section related style........*/
+
+footer{
+  background: #0B0223;
+  color: white;
+  padding: 6.25vw 22vw;
+ 
+}
+footer .logo-con{
+  justify-content: center;
+}
+.our-details{
+  font-size: clamp(12px,1.11vw,18px);
+  margin-bottom: 40px;
+  display: grid;
+  gap: clamp(40px,3.13vw,60px);
+  justify-content: center;
+  list-style: none;
+}
+.social-con{
+  margin-bottom: 40px;
+display: grid;
+gap: 40px;
+justify-content: center;
+}
+.social-con i{
+  max-width: 40px;
+  max-height: 40px;
+}
+.terms-condition{
+  margin-bottom: 40px;
+  display: grid;
+  gap: clamp(40px,3.13vw,60px);
+  justify-content: center;
+  font-size: clamp(10px,.97vw,16px);
+  list-style: none;
+}
+.copyright{
+  font-size: clamp(10px,.97vw,16px);
+  text-align: center;  
+}
+
+/* our-details container has been made responsive */
+.our-details{
+  grid-template-areas: 
+  'story games web career support account'
+  ;
+}
+.story{
+  grid-area: story;
+}
+.games{
+  grid-area: games;
+}
+.web{
+  grid-area: web;
+}
+.career{
+  grid-area: career;
+}
+.support{
+  grid-area: support;
+}
+.account{
+  grid-area: account;
+}
+/* social-con container been made responsive */
+.social-con{
+  grid-template-areas: 
+  'tw fb yt in ins apple'
+  ;
+}
+.tw{
+  grid-area:  tw;
+}
+.fb{
+  grid-area: fb;
+}
+.yt{
+  grid-area: yt;
+}
+.in{
+  grid-area: in;
+}
+.ins{
+  grid-area: ins;
+}
+.apple{
+  grid-area: apple;
+}
+
+/* terms-condition container has been made responsive */
+.terms-condition{
+  grid-template-areas: 
+  'terms privacy cookie setting'
+  ;
+}
+.terms{
+  grid-area: terms;
+}
+.privacy{
+  grid-area: privacy;
+}
+.cookie{
+  grid-area: cookie;
+}
+.setting{
+  grid-area: setting;
+}
+
+
+/*end of footer section related style........*/
+
 
 
 
