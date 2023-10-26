@@ -22,9 +22,13 @@
     max-width: calc(100% - 100px); /**/
   }
   .banner-content {
-    padding: 30px;
-    margin: 20px;
+    padding: 20px;/* above 576px  have only margin-right: 3rem */
+    margin: 20px; /* above 576px have padding: 7.5vw 12.5vw */
   }
+  .banner-title{
+    font-size: var(--font-32);
+  }
+
   .game-featured {
     font-size: var(--font-14);
   }
@@ -46,14 +50,20 @@
   .play-instantly {
     flex-direction: column;
   }
+  .play-instantly-title{
+    font-size: var(--font-32);
+  }
   .play-instantly-content {
     text-align: center;
   }
   .play-games-online {
     flex-direction: column;
   }
+  .play-games-online-title{
+    font-size: var(--font-32);
+  }
   .play-games-online-content {
-    margin-left: 40px;
+    margin: auto;
     text-align: center;
   }
 
@@ -99,7 +109,7 @@
 
 /* footer has been made responsive by grid */
 footer{
-  padding: 40px;
+  padding: 20px;
 }
 
 /* our-details container has been made responsive */
